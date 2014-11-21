@@ -58,5 +58,7 @@ module RedmineApp
     if File.exists?(File.join(File.dirname(__FILE__), 'additional_environment.rb'))
       instance_eval File.read(File.join(File.dirname(__FILE__), 'additional_environment.rb'))
     end
+
+    config.assets.initialize_on_precompile = false
   end
 end
