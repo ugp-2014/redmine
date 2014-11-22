@@ -1,3 +1,6 @@
 [submodule "plugins/redmine_backlogs"]
 	path = plugins/redmine_backlogs
 	url = https://github.com/ugp-2014/redmine_backlogs.git
+[submodule "plugins/redmine_redcarpet_formatter"]
+	path = plugins/redmine_redcarpet_formatter
+	url = https://github.com/alminium/redmine_redcarpet_formatter.git
